@@ -1,0 +1,21 @@
+#login-page {
+    display: flex;
+
+    #login-left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        #login-assets-container {
+            display: flex;
+            margin: 0 auto;
+            #login-assets
+        }
+
+    }
+
+    #login-right {
+        width: 50%;
+
+    }
+}

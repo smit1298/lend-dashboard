@@ -1,0 +1,36 @@
+#login-page {
+    display: flex;
+    height: 100vh;
+
+    #login-left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        background: hsl(0, 0%, 100%);
+
+        #login-assets-container {
+            display: flex;
+            margin: 0 auto;
+            padding-top: 106px;
+
+            #login-assets {
+                display: flex;
+                flex-direction: column;
+
+                .login-image {
+                    width: 90%;
+                    padding-top: 139px;
+                }
+            }
+        }
+
+    }
+
+    #login-right {
+        width: 50%;padding-top: 220px;
+#login-details{
+    width: fit-content;
+ margin: 0 auto;
+}
+    }
+}

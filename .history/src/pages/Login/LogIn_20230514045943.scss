@@ -1,0 +1,47 @@
+#login-page {
+    display: flex;
+    height: 100vh;
+
+    #login-left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        background: #fbfbfb;
+
+        #login-assets-container {
+            display: flex;
+            margin: 0 auto;
+            padding-top: 106px;
+
+            #login-assets {
+                display: flex;
+                flex-direction: column;
+
+                .login-image {
+                    width: 90%;
+                    padding-top: 139px;
+                }
+            }
+        }
+
+    }
+
+    #login-right {
+        width: 50%;
+        padding-top: 250px;
+
+        #login-details {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            padding-left: 100px;
+
+            #login-header {
+                .welcome {
+                    font-weight: 700;
+                    color: #213F7D;
+                }
+            }
+        }
+    }
+}
